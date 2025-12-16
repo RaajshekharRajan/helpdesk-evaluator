@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* NEW: Enterprise Dot Pattern Background */
+.bg-grid-pattern {
+  background-color: #f8fafc; /* slate-50 */
+  background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+  background-size: 24px 24px;
+}

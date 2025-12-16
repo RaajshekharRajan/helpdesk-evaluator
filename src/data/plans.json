@@ -1,0 +1,374 @@
+[
+  {
+    "id": "zendesk_suite_team",
+    "brand_name": "Zendesk",
+    "plan_name": "Suite Team",
+    "brand_color": "#03363D",
+    "official_url": "https://www.zendesk.com/pricing/",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 55, "currency": "USD", "period": "annual", "model": "per_agent" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": true, "display_text": "Voice (Talk Partner)", "tier": "standard" },
+      "chat": { "included": true, "display_text": "Messaging", "tier": "standard" },
+      "social": { "included": true, "display_text": "Social Messaging", "tier": "standard" }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Unified Workspace", "rating": 4.5 },
+      "automation": { "included": true, "display_text": "Standard Automations", "tier": "standard" },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": true, "tier": "standard" },
+      "reporting": { "included": true, "display_text": "Pre-built Dashboards", "tier": "basic" },
+      "ai_features": { "included": true, "display_text": "Standard Bots", "tier": "basic" }
+    },
+    "integrations": { 
+      "salesforce": { "included": false }, 
+      "jira": { "included": true, "tier": "standard" }, 
+      "shopify": { "included": true, "tier": "standard" } 
+    }
+  },
+  {
+    "id": "zendesk_suite_growth",
+    "brand_name": "Zendesk",
+    "plan_name": "Suite Growth",
+    "brand_color": "#03363D",
+    "official_url": "https://www.zendesk.com/pricing/",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 89, "currency": "USD", "period": "annual", "model": "per_agent" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": true, "tier": "advanced" },
+      "chat": { "included": true, "tier": "advanced" },
+      "social": { "included": true }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "rating": 5 },
+      "automation": { "included": true, "tier": "advanced", "details": ["Routing based on skills", "Multi-step macros"] },
+      "sla_management": { "included": true, "tier": "standard" },
+      "knowledge_base": { "included": true, "display_text": "Multiple Help Centers", "tier": "advanced" },
+      "reporting": { "included": true, "tier": "standard" },
+      "ai_features": { "included": true, "tier": "standard" }
+    },
+    "integrations": { "salesforce": { "included": true }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "freshdesk_growth",
+    "brand_name": "Freshdesk",
+    "plan_name": "Growth",
+    "brand_color": "#0F1C2E",
+    "official_url": "https://freshdesk.com/pricing",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 15, "currency": "USD", "period": "annual", "model": "per_agent" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": false, "display_text": "Paid Add-on" },
+      "chat": { "included": false, "display_text": "Paid Add-on" },
+      "social": { "included": true, "display_text": "Facebook & X" }
+    },
+    "features": {
+      "email_ticketing": { "included": true },
+      "automation": { "included": true, "display_text": "Basic Automation", "tier": "basic" },
+      "sla_management": { "included": true, "tier": "basic" },
+      "knowledge_base": { "included": true, "tier": "standard" },
+      "reporting": { "included": true, "display_text": "Curated Reports", "tier": "basic" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { "salesforce": { "included": false }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "freshdesk_pro",
+    "brand_name": "Freshdesk",
+    "plan_name": "Pro",
+    "brand_color": "#0F1C2E",
+    "official_url": "https://freshdesk.com/pricing",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 49, "currency": "USD", "period": "annual", "model": "per_agent" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": true, "display_text": "Omnichannel Add-on" },
+      "chat": { "included": true, "display_text": "Omnichannel Add-on" },
+      "social": { "included": true }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Round Robin Routing", "tier": "advanced" },
+      "automation": { "included": true, "display_text": "Advanced Rules", "tier": "advanced" },
+      "sla_management": { "included": true, "display_text": "Multiple SLAs", "tier": "advanced" },
+      "knowledge_base": { "included": true, "display_text": "Multilingual", "tier": "advanced" },
+      "reporting": { "included": true, "display_text": "Custom Reports", "tier": "advanced" },
+      "ai_features": { "included": true, "display_text": "Freddy AI (Basic)", "tier": "basic" }
+    },
+    "integrations": { "salesforce": { "included": true }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "zoho_desk_standard",
+    "brand_name": "Zoho Desk",
+    "plan_name": "Standard",
+    "brand_color": "#009384",
+    "official_url": "https://www.zoho.com/desk/pricing.html",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 14, "currency": "USD", "period": "annual", "model": "per_agent" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": false },
+      "social": { "included": true }
+    },
+    "features": {
+      "email_ticketing": { "included": true },
+      "automation": { "included": true, "tier": "basic" },
+      "sla_management": { "included": true, "tier": "basic" },
+      "knowledge_base": { "included": true, "display_text": "Public KB", "tier": "basic" },
+      "reporting": { "included": true, "display_text": "Basic Reports", "tier": "basic" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { "salesforce": { "included": false }, "jira": { "included": true }, "shopify": { "included": false } }
+  },
+  {
+    "id": "zoho_desk_enterprise",
+    "brand_name": "Zoho Desk",
+    "plan_name": "Enterprise",
+    "brand_color": "#009384",
+    "official_url": "https://www.zoho.com/desk/pricing.html",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 40, "currency": "USD", "period": "annual", "model": "per_agent" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": true, "display_text": "Telephony Integration" },
+      "chat": { "included": true, "display_text": "Live Chat" },
+      "social": { "included": true }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Multi-Department" },
+      "automation": { "included": true, "display_text": "Blueprint", "tier": "advanced" },
+      "sla_management": { "included": true },
+      "knowledge_base": { "included": true },
+      "reporting": { "included": true, "display_text": "Scheduled Reports", "tier": "advanced" },
+      "ai_features": { "included": true, "display_text": "Zia AI", "tier": "standard" }
+    },
+    "integrations": { "salesforce": { "included": true }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "hubspot_service_starter",
+    "brand_name": "HubSpot",
+    "plan_name": "Service Starter",
+    "brand_color": "#FF5C35",
+    "official_url": "https://www.hubspot.com/pricing/service",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 18, "currency": "USD", "period": "annual", "model": "per_seat" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": true, "display_text": "Calling SDK", "tier": "basic" },
+      "chat": { "included": true, "display_text": "Live Chat", "tier": "basic" },
+      "social": { "included": false }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Shared Inbox" },
+      "automation": { "included": true, "display_text": "Simple Automation", "tier": "basic" },
+      "sla_management": { "included": false, "display_text": "Requires Pro" },
+      "knowledge_base": { "included": false, "display_text": "Requires Pro" },
+      "reporting": { "included": true, "display_text": "Basic Reports", "tier": "basic" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { "salesforce": { "included": false }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "hubspot_service_pro",
+    "brand_name": "HubSpot",
+    "plan_name": "Service Pro",
+    "brand_color": "#FF5C35",
+    "official_url": "https://www.hubspot.com/pricing/service",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 90, "currency": "USD", "period": "annual", "model": "per_seat" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": true, "tier": "advanced" },
+      "chat": { "included": true, "tier": "advanced" },
+      "social": { "included": false }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "rating": 5 },
+      "automation": { "included": true, "display_text": "Advanced Workflows", "tier": "enterprise" },
+      "sla_management": { "included": true, "tier": "standard" },
+      "knowledge_base": { "included": true, "tier": "advanced" },
+      "reporting": { "included": true, "display_text": "Custom Analytics", "tier": "advanced" },
+      "ai_features": { "included": true, "display_text": "Conversation Intelligence", "tier": "advanced" }
+    },
+    "integrations": { "salesforce": { "included": true, "tier": "advanced" }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "salesforce_starter",
+    "brand_name": "Salesforce",
+    "plan_name": "Starter Suite",
+    "brand_color": "#00A1E0",
+    "official_url": "https://www.salesforce.com/products/service-cloud/pricing/",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 25, "currency": "USD", "period": "annual", "model": "per_user" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": false },
+      "social": { "included": false }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Case Management", "tier": "standard" },
+      "automation": { "included": true, "display_text": "Basic Flows", "tier": "basic" },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": true, "display_text": "Knowledge (Read Only)", "tier": "basic" },
+      "reporting": { "included": true, "tier": "standard" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { 
+      "salesforce": { "included": true, "display_text": "Native", "tier": "enterprise" }, 
+      "jira": { "included": false }, 
+      "shopify": { "included": false } 
+    }
+  },
+  {
+    "id": "intercom_essential",
+    "brand_name": "Intercom",
+    "plan_name": "Essential",
+    "brand_color": "#000000",
+    "official_url": "https://www.intercom.com/pricing",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 39, "currency": "USD", "period": "annual", "model": "per_seat" },
+    "constraints": { "ticket_limit": "Unlimited" },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": true, "display_text": "Intercom Messenger", "tier": "enterprise", "rating": 5 },
+      "social": { "included": true }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Team Inbox", "tier": "basic" },
+      "automation": { "included": true, "display_text": "Workflows", "tier": "standard" },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": true, "tier": "standard" },
+      "reporting": { "included": true, "tier": "basic" },
+      "ai_features": { "included": true, "display_text": "Fin AI (Usage Billed)", "tier": "advanced" }
+    },
+    "integrations": { "salesforce": { "included": true }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "helpscout_standard",
+    "brand_name": "Help Scout",
+    "plan_name": "Standard",
+    "brand_color": "#1292EE",
+    "official_url": "https://www.helpscout.com/pricing/",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 22, "currency": "USD", "period": "annual", "model": "per_user" },
+    "constraints": { "ticket_limit": "Unlimited", "max_seats": 25, "tooltip": "Good for small teams" },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": true, "display_text": "Beacon Chat", "tier": "standard" },
+      "social": { "included": false }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Shared Inbox", "rating": 4.8 },
+      "automation": { "included": true, "display_text": "Manual Workflows", "tier": "basic" },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": true, "display_text": "Docs Site", "tier": "standard" },
+      "reporting": { "included": true, "tier": "basic" },
+      "ai_features": { "included": true, "display_text": "AI Summarize", "tier": "basic" }
+    },
+    "integrations": { "salesforce": { "included": false }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "front_starter",
+    "brand_name": "Front",
+    "plan_name": "Starter",
+    "brand_color": "#FF5055",
+    "official_url": "https://front.com/pricing",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 25, "currency": "USD", "period": "annual", "model": "per_seat" },
+    "constraints": { "min_seats": 2, "max_seats": 10, "tooltip": "Min 2 seats required" },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": true, "tier": "basic" },
+      "social": { "included": true, "tier": "basic" }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "tier": "standard" },
+      "automation": { "included": true, "display_text": "Basic Rules", "tier": "basic" },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": false },
+      "reporting": { "included": true, "display_text": "Basic Analytics", "tier": "basic" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { "salesforce": { "included": false }, "jira": { "included": true }, "shopify": { "included": true } }
+  },
+  {
+    "id": "gorgias_basic",
+    "brand_name": "Gorgias",
+    "plan_name": "Basic",
+    "brand_color": "#7633FA",
+    "official_url": "https://www.gorgias.com/pricing",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 60, "currency": "USD", "period": "monthly", "model": "flat_fee" },
+    "constraints": { "ticket_limit": 300, "tooltip": "Includes 300 tickets/mo. Extra tickets cost more." },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": true, "display_text": "Live Chat" },
+      "social": { "included": true, "display_text": "Insta/FB Comments", "tier": "advanced" }
+    },
+    "features": {
+      "email_ticketing": { "included": true },
+      "automation": { "included": true, "display_text": "Macros & Rules", "tier": "advanced" },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": false },
+      "reporting": { "included": true, "tier": "basic" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { 
+      "salesforce": { "included": false }, 
+      "jira": { "included": false }, 
+      "shopify": { "included": true, "display_text": "Deep Integration", "tier": "enterprise", "rating": 5 } 
+    }
+  },
+  {
+    "id": "gladly_hero",
+    "brand_name": "Gladly",
+    "plan_name": "Hero",
+    "brand_color": "#FBD24E",
+    "official_url": "https://www.gladly.com/pricing/",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 150, "currency": "USD", "period": "annual", "model": "per_hero" },
+    "constraints": { "ticket_limit": "Unlimited", "min_seats": 10 },
+    "channels": {
+      "voice": { "included": true, "display_text": "Built-in Voice", "tier": "enterprise" },
+      "chat": { "included": true, "tier": "advanced" },
+      "social": { "included": true }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Conversation Timeline", "rating": 5 },
+      "automation": { "included": true, "display_text": "Answers", "tier": "advanced" },
+      "sla_management": { "included": true, "tier": "standard" },
+      "knowledge_base": { "included": true, "tier": "standard" },
+      "reporting": { "included": true, "tier": "advanced" },
+      "ai_features": { "included": true, "display_text": "Gladly Sidekick", "tier": "advanced" }
+    },
+    "integrations": { "salesforce": { "included": false, "display_text": "Custom" }, "jira": { "included": false }, "shopify": { "included": true } }
+  },
+  {
+    "id": "customerio_essentials",
+    "brand_name": "Customer.io",
+    "plan_name": "Essentials",
+    "brand_color": "#3D3185",
+    "official_url": "https://customer.io/pricing/",
+    "last_updated": "2024-12-15",
+    "pricing": { "cost_per_agent": 100, "currency": "USD", "period": "monthly", "model": "flat_fee" },
+    "constraints": { "ticket_limit": "5000 Profiles", "tooltip": "Pricing based on profiles, not agents" },
+    "channels": {
+      "voice": { "included": false },
+      "chat": { "included": false },
+      "social": { "included": false }
+    },
+    "features": {
+      "email_ticketing": { "included": true, "display_text": "Automated Campaigns", "tier": "advanced" },
+      "automation": { "included": true, "display_text": "Visual Workflow", "tier": "enterprise", "rating": 5 },
+      "sla_management": { "included": false },
+      "knowledge_base": { "included": false },
+      "reporting": { "included": true, "display_text": "Campaign Analysis", "tier": "advanced" },
+      "ai_features": { "included": false }
+    },
+    "integrations": { "salesforce": { "included": true }, "jira": { "included": false }, "shopify": { "included": true } }
+  }
+]
